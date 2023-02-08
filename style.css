@@ -1,0 +1,111 @@
+body  {
+  text-align: center;
+  background-color: rgb(243, 247, 245);
+  font-family: 'Manrope', sans-serif;
+  color: rgb(92, 90, 90);
+}
+
+h1  {
+  color: rgb(92, 90, 90);
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 350;
+  font-weight: 400;
+}
+
+h2  {
+  color: rgb(92, 90, 90);
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 200;
+}
+
+img#profile-pic {
+  border-radius: 250px;
+}
+
+div.information {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 40px;
+  margin: 20px 200px 20px;
+  padding-bottom: 70px;
+}
+
+.information-with-btn {
+  margin-bottom: 40px;
+  /* padding-bottom: auto; */
+}
+
+ul.horizontal-list {
+  list-style-type: none;
+}
+
+ul.horizontal-list li {
+  display: inline;
+}
+
+ul.horizontal-list li i {
+  font-size: 90px;
+  margin: 10px 50px;
+  color: rgb(96, 90, 90);
+}
+
+ul.horizontal-list li a :hover{
+  color: rgb(182, 161, 194);
+}
+
+.go-to-btn {
+  background-color: rgb(158, 200, 178);
+  padding: 20px 70px;
+  margin: 100px 75px 250px;
+  border-radius: 35px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.go-to-btn:hover {
+  background-color: grey;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 895px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .go-to-btn {
+    font-size: 10px;
+    padding: 20px 70px;
+    margin: 20px 50px 100px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .go-to-btn {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 250px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 150px;
+  }
+  .go-to-btn {
+    font-size: 5px;
+  }
+}
